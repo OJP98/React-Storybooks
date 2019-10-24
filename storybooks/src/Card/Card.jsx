@@ -3,12 +3,8 @@ import '../index.css'
 
 export default class Card extends Component {
   render() {
-    // const { backgroundColor } = this.props
-    // const style = `
-    // {
-    //   backgroundColor: ${backgroundColor},
-    // }`
 
+    const { link } = this.props;
     return (
       <div className="container">
         <div className="card">
@@ -22,7 +18,7 @@ export default class Card extends Component {
           <div className="face face2">
             <div className="content">
               <h3>
-                <a href="https://www.linkedin.com/in/adamdipinto/" target="_blank" rel="noopener noreferrer">Oscar Juárez</a>
+                <a href={link} target="_blank" rel="noopener noreferrer">Oscar Juárez</a>
               </h3>
               <p>Este es un mensaje de prueba</p>
             </div>

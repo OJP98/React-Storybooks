@@ -4,4 +4,4 @@ import Card from '../src/Card/Card.jsx';
 import '../src/index.css'
 
 storiesOf('Card', module)
-  .add('Default', () => <Card />)
+  .add('Default', () => <Card link="https://www.github.com"/>)
