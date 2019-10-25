@@ -18,7 +18,7 @@ export default class Card extends Component {
           <div className="face face2">
             <div className="content">
               <h3>
-                <a href={link} target="_blank" rel="noopener noreferrer">Oscar Juárez</a>
+                <a href={ link } target="_blank" rel="noopener noreferrer">Oscar Juárez</a>
               </h3>
               <p>Este es un mensaje de prueba</p>
             </div>
