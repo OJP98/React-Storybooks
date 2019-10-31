@@ -7,9 +7,9 @@ export default class Card extends Component {
     const { link, icon, bgColor, title, text } = this.props;
     let iconClass = ''
 
-    if (icon == 'github') iconClass = 'fa fa-github-square'
-    else if (icon == 'linkedin') iconClass = 'fa fa-linkedin-square'
-    else if (icon == 'twitter') iconClass = 'fa fa-twitter-square'
+    if (icon === 'github') iconClass = 'fa fa-github-square'
+    else if (icon === 'linkedin') iconClass = 'fa fa-linkedin-square'
+    else if (icon === 'twitter') iconClass = 'fa fa-twitter-square'
     else iconClass = 'fa'
 
     return (

@@ -7,9 +7,9 @@ export default class Background extends Component {
     let iconClass = ''
     animated ? face = 'face face1' : face = 'face static'
 
-    if (icon == 'github') iconClass = 'fa fa-github-square'
-    else if (icon == 'linkedin') iconClass = 'fa fa-linkedin-square'
-    else if (icon == 'twitter') iconClass = 'fa fa-twitter-square'
+    if (icon === 'github') iconClass = 'fa fa-github-square'
+    else if (icon === 'linkedin') iconClass = 'fa fa-linkedin-square'
+    else if (icon === 'twitter') iconClass = 'fa fa-twitter-square'
     else iconClass = 'fa'
 
     return (
