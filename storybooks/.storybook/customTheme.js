@@ -5,11 +5,11 @@ import {
 export default create({
     base: 'light',
 
-    colorPrimary: 'hotpink',
-    colorSecondary: 'red',
+    colorPrimary: 'red',
+    colorSecondary: 'deepskyblue',
 
     // UI
-    appBg: 'pink',
+    appBg: 'white',
     appContentBg: 'silver',
     appBorderColor: 'grey',
     appBorderRadius: 4,
